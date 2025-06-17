@@ -1,0 +1,41 @@
+/* src/adminPages/css/admin.css */
+.admin-container {
+  max-width: 1500px;
+  margin: 80px auto;
+  padding: 20px;
+  background: #fefefe;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  border-radius: 16px;
+  font-family: "Segoe UI", sans-serif;
+  width: 30%; 
+}
+
+.admin-container h2 {
+  margin-bottom: 20px;
+  color: #2b2b2b;
+}
+
+.admin-container input,
+.admin-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  align-items: center;
+}
+
+.admin-container button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.admin-container button:hover {
+  background-color: #0056b3;
+}

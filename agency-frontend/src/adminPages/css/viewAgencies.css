@@ -1,0 +1,70 @@
+.agencies-container {
+  padding: 32px 30px;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  /*margin: 0 auto;*/
+  align-items: left;
+}
+
+.agencies-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.agencies-table {
+  width: 130%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  
+}
+
+.agencies-table th,
+.agencies-table td {
+  border: 1px solid #e5e7eb;
+  padding: 14px;
+  text-align: left;
+  font-size: 15px;
+  vertical-align: top;
+}
+
+.agencies-table th {
+  background-color: #f3f4f6;
+  color: #374151;
+  font-weight: 600;
+}
+
+.agencies-table tr:hover {
+  background-color: #f9fafb;
+}
+
+.agency-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.agency-nologo {
+  color: #9ca3af;
+  font-size: 13px;
+  text-align: center;
+}
+
+
+.agencies-table th:nth-child(8),
+.agencies-table td:nth-child(8) {
+  width: 50px;
+  text-align: center;
+}
+
+.edit-link {
+  color: #2563eb;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.edit-link:hover {
+  text-decoration: underline;
+}

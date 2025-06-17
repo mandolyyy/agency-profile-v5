@@ -1,0 +1,137 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+  
+}
+
+/* Layout */
+.app-container {
+  display: flex;
+  min-height: 100vh;    /* allows page to grow */
+  height: auto;
+  overflow: visible;    /* allow normal scroll */
+}
+
+/* Logo Styling */
+.logo-container {
+  display: flex;
+  justify-content:left;
+  margin-bottom: 20px;
+}
+
+.agency-logo {
+  width: 150px !important;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e0e0e0;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content */
+.main {
+  flex: 1;
+  padding: 60px 80px;
+  overflow-y: auto;
+  min-width: 0; /* ensure it doesn’t shrink oddly */
+  max-width: 100%;
+}
+.content-wrapper {
+  max-width: 1200px;
+  width: 100%;
+}
+.header-box {
+  background-color: #f0f9ff;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding: 16px 24px;
+  margin-bottom: 32px;
+  width: 69%;
+  max-width: 1000px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  
+}
+
+.header-box p {
+  margin: 4px 0;
+  font-weight: 500;
+  color: #1e40af;
+}
+
+/* Form styling */
+form {
+  width: 100%;
+  max-width: 1000px; /* optional limit */
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #374151;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  background-color: #fff;
+  font-size: 0.95rem;
+  transition: border 0.2s;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+  border-color: #2563eb;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+/* File input */
+input[type="file"] {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}
+
+.upload-box {
+  border: 2px dashed #93c5fd;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: #3b82f6;
+  background-color: #f0f9ff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.upload-box:hover {
+  background-color: #dbeafe;
+}
+
+/* Save button */
+button {
+  padding: 10px 20px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top:30px;
+}
+
+button:hover {
+  background-color: #1e3a8a;
+}
